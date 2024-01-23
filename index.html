@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="header-outer">
+        <div class="header-inner responsive-wrapper">
+            <div class="header-logo">
+                <img src="https://assets.codepen.io/285131/acme-2.svg" />
+            </div>
+            <nav class="header-navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+                <button id="menuBtn">Menu</button>
+            </nav>
+        </div>
+    </header>
+    <!-- Content -->
+    <div class="form">
+        <form id= "form" action="#" class="sub-form">  
+            <div class="upper-form"> 
+            <h2>Login Form</h2>
+                <label>Username</label>
+                <input id= "name" type="text" name="username"> <br>
+                <label>Password</label>
+                <input id= "pass" type="password" name="password"> <br>
+                <div class="btm">
+                    <button type="submit">Login</button> <br>
+                </div>
+            </div>
+            <p id="error"></p>
+            <div class="bottom-form">
+                <div class="no-account">Don't have an account? </div>
+                <a href="#" id ="signUp"class="signup">Signup</a>
+            </div>
+      
+        </form>             
+      </div>
+      
+    <main class="main">
+        <div class="main-content responsive-wrapper">
+            <article class="widget">
+                <h2>How does it work without JS? 🤯</h2>
+                <p>This sticky header consists of two elements: an <strong>outer</strong> and an <strong>inner</strong> container. The outer container is taller than the inner — and the inner is centered vertically.
+                <p>By utilizing the <code>position: sticky</code> property <strong>twice</strong>, both on the header's <strong>outer container</strong> and <strong>inner container</strong> the outer container will stick to the <code>body</code>, while the inner container will stick to the outer container.</p>
+                <p>Note that the outer container has a negative <code>top</code> value equal to the height difference between the two containers. This causes the outer container to stick <strong>above</strong> the <code>body</code>, making the inner container stick to the "ceiling" on scroll.
+                <p></p>
+                <a href="https://hcdev-ru.pages.dev/learn/html5/overview/">HTML</a>
+                <a href="https://rivilart.github.io/css-basics.html">CSS</a>
+                <a href="https://digitalocean.ru/n/chto-takoe-javascript">JavaScript</a>
+            </article>
+        </div>
+    </main>
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__text">
+                <div>Copyright © 2023. All Rights Reserved</div>
+                <div>@ <span>Kahofa Company</span></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
