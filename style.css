@@ -367,4 +367,24 @@ body {
         justify-content: center;
         margin-top: -0.5rem;
     }
+}@media (max-width: 480px) {
+    /* Adjust styles for screens less than or equal to 600 pixels wide */
+    .form {
+        max-width: 100%;
+    }
+
+    input, button {
+        width: 100%;
+    }
+    .sub-form{
+        
+        width: 66vw;
+        height: 69vh;
+        
+      }
+    .bottom-form{
+        display: flex;
+        justify-content: center;
+        margin-top: -0.5rem;
+    }
 }
